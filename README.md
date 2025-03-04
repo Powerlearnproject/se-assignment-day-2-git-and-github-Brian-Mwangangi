@@ -29,15 +29,15 @@ How to set up a new repository on GitHub
 2. Creating New Repository. Click on the + icon located at the top-right corner of the page and select the New repository option. 
 3. Entering Details. Choose the appropriate repository name, provide an optional description, select whether it will be public (everyone can see it) or private (only selected users can access). 
 4. Initializing the Repository. You may: 
-   - Upload a README file (not compulsory, but important for explaining the project). 
-   - Upload a .gitignore file to remove specific files from version control. 
-   - Buy a license to issue approvals. 
+   Upload a README file (not compulsory, but important for explaining the project). 
+   Upload a .gitignore file to remove specific files from version control. 
+   Buy a license to issue approvals. 
 5. Final Steps. Click the Create repository option to finalize the changes. 
 6. Local Code or Remote. With `git clone`, you may download the repository locally and push the existing code with `git remote add origin`. 
 Important options
-- Public vs Private. Dictates whom to allow access to your repository. 
-- License. Dictates how a user may use your code. 
-- .gitignore. Keep unwanted files out of the repository.
+Public vs Private. Dictates whom to allow access to your repository. 
+License. Dictates how a user may use your code. 
+.gitignore. Keep unwanted files out of the repository.
 
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 
@@ -83,34 +83,34 @@ A commit is a snapshot of changes in a Git-tracked project. Each commit records 
 
 Steps to Make Your First Commit on GitHub 
 1. Initialize a Git Repository (If not already created)
-   - Navigate to your project folder and run:  
+   Navigate to your project folder and run:  
      git init
-   - This initializes a new Git repository.  
+   This initializes a new Git repository.  
 
 2. Add a new file or modify existing files  
-   - Create a new file, example, 'README.md':  
+   Create a new file, example, 'README.md':  
      echo "# My Project" > README.md
 
 3. Stage changes  
-   - Add files to the staging area:  
+   Add files to the staging area:  
      git add .
      
 4. Commit changes
-   - Save changes with a meaningful message:  
+   Save changes with a meaningful message:  
      git commit -m "Initial commit: Added README file"
 
 5. Connect to GitHub 
-   - Link the repository to GitHub:  
+   Link the repository to GitHub:  
      git remote add origin <repository-URL>
 
 6. Push the commit to GitHub
    - Upload changes to the remote repository:  
      git push -u origin main or master
 Howcommits help in Version Control
-- Tracks Changes – Each commit logs modifications with timestamps.  
-- Reverts Mistakes – Enables restoring previous versions if needed.  
-- Facilitates Collaboration – Multiple contributors can track and merge changes efficiently.  
-- Provides Clear Documentation – Helps understand project evolution over time.
+  Tracks Changes – Each commit logs modifications with timestamps.  
+  Reverts Mistakes – Enables restoring previous versions if needed.  
+  Facilitates Collaboration – Multiple contributors can track and merge changes efficiently.  
+  Provides Clear Documentation – Helps understand project evolution over time.
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
