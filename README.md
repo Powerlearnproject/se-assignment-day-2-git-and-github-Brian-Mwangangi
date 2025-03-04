@@ -104,7 +104,7 @@ Steps to Make Your First Commit on GitHub
      git remote add origin <repository-URL>
 
 6. Push the commit to GitHub
-   - Upload changes to the remote repository:  
+   Upload changes to the remote repository:  
      git push -u origin main or master
 Howcommits help in Version Control
   Tracks Changes – Each commit logs modifications with timestamps.  
